@@ -1,0 +1,55 @@
+.grillacontenedora8partes
+{
+    display:grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%  ;
+}
+.grillacontenedora4partes
+{
+    display: grid;
+    grid-template-columns: 50% 20% 20% 10%;
+}
+h1
+{
+color: aquamarine;
+font-size: 30px ;
+font-family: cursive;
+text-align: center;
+}
+header
+{
+    background-color: rgb(252, 4, 4);
+}
+footer
+{
+    background-color: rgb(131, 4, 4);
+    text-align: center;
+}
+p.pie
+{
+color:rgb(255, 253, 253) ;
+}
+div.oscuro
+{
+    background-color: rgb(235, 69, 69);
+    text-align: center;
+    border: 7px solid blueviolet;
+    border-radius: 4px;
+}
+div.claro
+{
+    background-color: bisque;
+    text-align: center;
+}
+h2:hover
+{
+font-family: cursive;
+color: rgb(231, 5, 35);
+background-color: rgb(223, 149, 136);
+}
+div.oscuro:hover
+{
+    background-color: rgb(45, 188, 245);
+    text-align: right;
+    border: 7px solid rgb(92, 114, 92);
+    border-radius: 10px;
+}
